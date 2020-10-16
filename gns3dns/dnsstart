@@ -1,0 +1,7 @@
+#!/bin/sh
+
+/usr/bin/curl -k https://raw.githubusercontent.com/jediking2000/Docker-Stacks/master/gns3dns/LIVEhosts >> /etc/hosts
+
+/etc/init.d/dnsmasq start
+
+exec bash -i
