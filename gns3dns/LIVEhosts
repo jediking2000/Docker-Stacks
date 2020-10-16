@@ -1,0 +1,61 @@
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+#Internet
+192.168.122.1 downloadmoreram.com
+
+#RA
+10.1.2.1 g0.ra
+10.1.1.1 g1.ra
+BA15:3310:2020:2::1 v6.g0.ra
+BA15:3310:2020:1::1 v6.g1.ra
+
+
+#RB
+10.1.2.2 g0.rb
+10.1.1.2 g1.rb
+192.168.1.2 g2.rb
+BA15:3310:2020:2::2 v6.g0.rb
+BA15:3310:2020:1::2 v6.g1.rb
+BA15:3310:2020:3::2 v6.g3.rb
+
+192.168.1.65 l0.rb
+192.168.1.81 l1.rb
+192.168.1.97 l2.rb
+192.168.1.113 l3.rb
+BA15:3310:2020:10::1 l6.rb
+
+
+#RC
+10.1.1.3 g0.rc
+10.1.2.3 g1.rc
+10.1.3.2 g2.rc
+BA15:3310:2020:1::3 v6.g0.rc
+BA15:3310:2020:2::3 v6.g1.rc
+BA15:3310:2020:4::2 v6.g2.rc
+
+172.1.1.1 l0.rc
+172.2.1.1 l1.rc
+172.3.1.1 l2.rc
+BA15:3310:2020:20::1 l6.rc
+BA15:3310:220:30::1 l16.rc
+
+#RD
+10.1.3.1 g1.rd
+BA15:3310:2020:4::1 v6.g1.rd
+
+10.1.5.1 l0.rd
+BA15:3310:CAFE:30::1 l6.rd
+
+
+#RE
+192.168.1.1 g1.re
+BA15:3310:2020:3::1 v6.g1.re
+
+2001:face:b00c:1::1 l6.re
+200.50.50.1 l0.re
+
