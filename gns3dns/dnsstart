@@ -2,4 +2,4 @@
 
 /usr/bin/curl -k https://raw.githubusercontent.com/jediking2000/Docker-Stacks/master/gns3dns/LIVEhosts >> /etc/hosts
 
-#/etc/init.d/dnsmasq start
+/etc/init.d/dnsmasq start
